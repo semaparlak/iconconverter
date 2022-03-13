@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>iconconverter_logo.ico</ApplicationIcon>
+    <Authors>Sema Parlak</Authors>
+    <Product>Icon Converter</Product>
+    <Copyright>Copyright © Sema Parlak 2022</Copyright>
+    <PackageProjectUrl>https://github.com/semaparlak/iconconverter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/semaparlak/iconconverter</RepositoryUrl>
+    <Platforms>AnyCPU;x86;x64;ARM32;ARM64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="iconconverter_logo.ico" />
+  </ItemGroup>
+
+</Project>
